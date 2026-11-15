@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { font-size: 18px; -webkit-tap-highlight-color: transparent; }
+  body { @apply bg-papel text-grafite font-corpo antialiased; overscroll-behavior-y: none; }
+  h1, h2, h3, .titulo { @apply font-titulo text-tinta tracking-tight; }
+  button { @apply select-none; }
+  :focus-visible { outline: 3px solid #B7791F; outline-offset: 2px; }
+}
+
+@layer components {
+  /* Cartão de cartilha: borda de tinta + sombra sólida, como carimbo */
+  .cartao { @apply bg-folha border-2 border-tinta rounded-2xl p-4 shadow-selo; }
+  .cartao-terra { @apply bg-folha border-2 border-terracota rounded-2xl p-4 shadow-seloTerra; }
+  .cartao-verde { @apply bg-folha border-2 border-esmeralda rounded-2xl p-4 shadow-seloVerde; }
+
+  .btn {
+    @apply min-h-[52px] px-5 rounded-xl font-titulo font-bold text-base border-2 border-tinta
+           inline-flex items-center justify-center gap-2 transition-transform duration-100
+           shadow-selo active:translate-x-[2px] active:translate-y-[2px] active:shadow-none;
+  }
+  .btn-tinta { @apply btn bg-tinta text-papel; }
+  .btn-claro { @apply btn bg-folha text-tinta; }
+  .btn-verde { @apply btn bg-esmeralda text-white border-esmeralda; box-shadow: 3px 3px 0 0 #14583f; }
+  .btn-terra { @apply btn bg-terracota text-white border-terracota; box-shadow: 3px 3px 0 0 #8e3d1f; }
+
+  .selo { @apply inline-flex items-center gap-1 rounded-full border-2 px-3 py-0.5 text-sm font-bold font-titulo; }
+
+  .chip { @apply min-h-[44px] px-4 rounded-full border-2 border-tinta/40 bg-folha text-tinta font-bold text-base; }
+  .chip[aria-pressed='true'] { @apply bg-tinta text-papel border-tinta; }
+
+  /* Padrão de azulejo geométrico (tom sobre tom) para o cabeçalho */
+  .azulejo {
+    background-color: #1E3A5F;
+    background-image:
+      radial-gradient(circle at 50% 50%, rgba(250,248,245,.16) 0 5px, transparent 6px),
+      radial-gradient(circle at 0 0, rgba(200,90,50,.35) 0 4px, transparent 5px),
+      radial-gradient(circle at 100% 100%, rgba(200,90,50,.35) 0 4px, transparent 5px);
+    background-size: 32px 32px;
+  }
+
+  .grifo { text-decoration: underline wavy #C85A32; text-decoration-thickness: 2px; text-underline-offset: 4px; @apply font-bold; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+@media print {
+  nav, .nao-imprimir { display: none !important; }
+  body { background: white; }
+  .cartao { box-shadow: none; }
+}

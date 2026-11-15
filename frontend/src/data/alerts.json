@@ -1,0 +1,16 @@
+[
+  {"id": 1, "titulo": "Banco não pede senha", "texto": "O banco nunca pede sua senha ou o código do SMS por telefone ou WhatsApp. Se alguém pedir, é golpe. Desligue."},
+  {"id": 2, "titulo": "Código é segredo", "texto": "O código de 6 números do WhatsApp é só seu. Não passe para ninguém, nem para amigos."},
+  {"id": 3, "titulo": "Emprego não cobra taxa", "texto": "Vaga de emprego de verdade não pede dinheiro para começar. Se pedir uniforme, curso ou taxa, desconfie."},
+  {"id": 4, "titulo": "Pix por engano", "texto": "Alguém disse que fez um Pix por engano? Abra o app do banco e veja se o dinheiro chegou. Não faça um Pix novo."},
+  {"id": 5, "titulo": "Olhe o endereço do link", "texto": "Antes de tocar no link, olhe o endereço. Site dos Correios termina em correios.com.br. Outros endereços são falsos."},
+  {"id": 6, "titulo": "Ganhou sem participar?", "texto": "Você não fez sorteio nenhum e ganhou um prêmio? É golpe. Prêmio de verdade não pede dinheiro nem CPF por mensagem."},
+  {"id": 7, "titulo": "Pressa é sinal de golpe", "texto": "\"Agora!\", \"Último dia!\", \"Sua conta será bloqueada!\" Golpistas querem que você tenha pressa. Respire e confirme."},
+  {"id": 8, "titulo": "Documentos com cuidado", "texto": "Não mande foto do RG, do CPF ou selfie com documento para quem você não conhece. Prefira entregar em mãos, no local."},
+  {"id": 9, "titulo": "Amigo pediu dinheiro?", "texto": "Seu amigo mandou mensagem pedindo Pix? Ligue para ele antes. A conta dele pode ter sido invadida."},
+  {"id": 10, "titulo": "Grupos desconhecidos", "texto": "Foi adicionado a um grupo de \"investimento\"? Saia do grupo. Ninguém dobra seu dinheiro em um dia."},
+  {"id": 11, "titulo": "Verificação em duas etapas", "texto": "Ative a verificação em duas etapas no WhatsApp. Ela protege sua conta mesmo se alguém descobrir o código."},
+  {"id": 12, "titulo": "Senha forte é uma frase", "texto": "Use uma frase longa como senha: quatro palavras com traço. É mais fácil de lembrar e mais difícil de descobrir."},
+  {"id": 13, "titulo": "Na dúvida, ligue você", "texto": "Recebeu um aviso do banco? Não responda a mensagem. Ligue para o número que está atrás do seu cartão."},
+  {"id": 14, "titulo": "Bloqueie e denuncie", "texto": "Recebeu golpe? Bloqueie o número e denuncie no aplicativo. Se perdeu dinheiro, fale com seu banco e faça um boletim de ocorrência."}
+]

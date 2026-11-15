@@ -3,15 +3,6 @@
 Aplicativo PWA para imigrantes e refugiados treinarem a identificação de golpes digitais.
 **Servidor: Node.js (Express). Banco: Firebase Firestore. Front-end: React + Vite + Tailwind.**
 
-## O que o enunciado pede e onde está
-| Exigência | Onde está |
-|---|---|
-| Tema livre | Prevenção de golpes digitais (extensão UCB / SER+ / IMDH) |
-| Servidor em Node.js | `server/` (Express): `server.js`, `src/app.js`, `src/routes/` |
-| Firebase como banco | `server/src/firebase.js` (Firestore, via `firebase-admin`) |
-| **3 CRUDs** | `participantes`, `casos`, `tentativas`: `server/src/routes/participantes.js`, `casos.js`, `tentativas.js`. Telas de cadastro em Início > Gestão da aula |
-| **Pelo menos 1 JOIN** | `server/src/join.js`: tentativas ⨝ participantes ⨝ casos. Aparece em Gestão da aula > Histórico |
-| 2 perguntas por aluno | Veja `ROTEIRO_APRESENTACAO.md` e `GUIA_DO_CODIGO.md` |
 
 ## Passo a passo para rodar
 

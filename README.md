@@ -24,13 +24,6 @@ Conecta+ rodando em http://localhost:3000
 ```
 Abra **http://localhost:3000**. No Console do Firebase, em Firestore Database, aparece a coleção `casos` com 10 documentos. As coleções `participantes` e `tentativas` aparecem quando você usar o app.
 
-### 3. Usar (roteiro de demonstração)
-1. **Simulador** > escolha um apelido (nunca o nome real) > responda os casos.
-2. **Início > Gestão da aula**:
-   - **Participantes**: criar, editar e excluir (CRUD 1).
-   - **Casos**: criar, editar e excluir casos de golpe (CRUD 2).
-   - **Histórico**: lista com o **JOIN** (apelido + título do caso); registrar, inverter e excluir respostas (CRUD 3).
-   - **Resultados**: acerto por caso, casos que mais confundem, CSV para o relatório.
 
 ## Se der erro
 | Mensagem | Causa e solução |

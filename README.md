@@ -1,6 +1,6 @@
 # Conecta+ (versão Node.js + Firebase) — Projeto Final AT2N2
 
-Aplicativo PWA para imigrantes e refugiados treinarem a identificação de golpes digitais.
+Aplicativo PWA para migrantes e refugiados treinarem a identificação de golpes digitais.
 **Servidor: Node.js (Express). Banco: Firebase Firestore. Front-end: React + Vite + Tailwind.**
 
 
